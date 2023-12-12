@@ -1,0 +1,192 @@
+body
+{
+margin: 0px;
+background-color: #fff;
+color: #000;
+}
+
+a { color: #000; }
+a:hover { color: #2345D2; }
+img { border: 0px; }
+
+#header
+{
+float: left;
+width: 100%;
+height: 50 px;
+background-color: #aaa;
+border-bottom: 1px solid #000;
+}
+
+#content
+{
+float: left;
+width: 100%;
+margin: 10px;
+}
+
+.login
+{
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 244px;
+background-color: #ccc;
+border: 1px solid #000;
+text-align: right;
+padding: 3px;
+}
+
+#header ul
+{
+margin: 0px;
+float: right;
+}
+
+#header li
+{
+display: inline;
+float: left;
+width: 50px;
+height: 40px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 10px;
+font-weight: bold;
+}
+
+#header li:hover
+{
+background-color: #ddd;
+}
+
+.routers
+{
+float: left;
+border: 1px solide #000;
+padding-top: 3px;
+padding-bottom: 3px;
+width: 325px;
+background-color: #bbb;
+text-align: right;
+border: 1px solid #000;
+margin-right: 10px;
+}
+
+.router
+{
+dislpay: bloc;
+float: left;
+width: 325px;
+background-color: #ccc;
+margin-top: 0px;
+border-bottom: 1px solid #000;
+}
+
+.router:hover
+{
+background-color: #eee;
+}
+
+.reseaux
+{
+float: left;
+width: 750px;
+height: 50px;
+background-color: #bbb;
+border: 1px solid #000;
+}
+
+.lan
+{
+display: block;
+float: left;
+width: 350px;
+
+background-color: #ccc;
+padding: 2px;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+margin-right: 5px;
+text-align: right;
+font-size: 12px;
+text-decoration: none;
+}
+
+.lan:hover
+{
+background-color: #eee;
+}
+
+.block_ip
+{
+float: left;
+width: 678px;
+background-color: #000;
+border: 1px solid #000;
+}
+
+.ip_up
+{
+display: block;
+float: left;
+width: 108px;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+padding-left: 2px;
+padding-right: 2px;
+font-weight: bold;
+text-align: center;
+background-color: #00DF44;
+}
+
+.ip_down
+{
+display: block;
+float: left;
+width: 108px;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+padding-left: 2px;
+padding-right: 2px;
+text-align: center;
+background-color: #000;
+color: #777;
+}
+
+.ip_middle
+{
+display: block;
+float: left;
+width: 108px;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+padding-left: 2px;
+padding-right: 2px;
+text-align: center;
+background-color: #FF9900;
+font-weight: bold;
+}
+
+.ip_red
+{
+display: block;
+float: left;
+width: 108px;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+padding-left: 2px;
+padding-right: 2px;
+text-align: center;
+background-color: #FF2200;
+font-weight: bold;
+}
+
+.choix_lan
+{
+float: left;
+display: block;
+width: 600px;
+height: 30px;
+margin-top: 15px;
+}
